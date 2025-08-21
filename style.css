@@ -1,0 +1,41 @@
+* {
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-banner{
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/45/18/fa/4518fa510f57c770e8eb3c3cb5d808f1.jpg");
+}
+
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, p, a{
+    color: #000
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;;
+}
+
+a{
+    font-size: 15px;
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 40px;
+    }
+}
